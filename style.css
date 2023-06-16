@@ -39,10 +39,18 @@ body {
     top: 15rem;
     width: 100%;
     display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .logo img {
     margin: auto;
     max-height: 60%;
     align-items: center;
+}
+
+.logo p {
+    font-size: 3rem;
+    color: white;
 }
