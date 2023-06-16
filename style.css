@@ -1,3 +1,31 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: white;
+}
+
+.flexbox-container {
+    display: flex;
+}
+
+.flexbox-container > * {
+    height: 100dvh;
+}
+
+.flexbox-container .flexbox-item {
+    border: 1px solid black;
+}
+
+.flexbox-container .image {
+    flex-basis: 40%;
+    background-image: url(img/leaf.jpg);
+    background-size: cover;
+}
+
+.flexbox-container .form {
+    flex-basis: 60%;
 }
