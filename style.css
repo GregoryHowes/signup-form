@@ -24,8 +24,25 @@ body {
     flex-basis: 40%;
     background-image: url(img/leaf.jpg);
     background-size: cover;
+    position: relative;
+    display: flex;
 }
 
 .flexbox-container .form {
     flex-basis: 60%;
+}
+
+.flexbox-container .logo {
+    background-color: rgba(17, 16, 16, 0.7);
+    height: 5rem;
+    position: absolute;
+    top: 15rem;
+    width: 100%;
+    display: flex;
+}
+
+.logo img {
+    margin: auto;
+    max-height: 60%;
+    align-items: center;
 }
