@@ -40,6 +40,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -53,4 +54,5 @@ body {
 .logo p {
     font-size: 3rem;
     color: white;
+    height: 100%;
 }
