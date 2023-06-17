@@ -30,6 +30,7 @@ body {
 
 .flexbox-container .form {
     flex-basis: 60%;
+    background-color: lightgray;
 }
 
 .flexbox-container .logo {
@@ -55,4 +56,9 @@ body {
     font-size: 3rem;
     color: white;
     height: 100%;
+}
+
+.form form {
+    background-color: white;
+    box-shadow: 2px gray;
 }
