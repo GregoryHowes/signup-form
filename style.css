@@ -21,7 +21,7 @@ body {
 }
 
 .flexbox-container .image {
-    flex-basis: 40%;
+    flex-basis: 35%;
     background-image: url(img/leaf.jpg);
     background-size: cover;
     position: relative;
@@ -29,7 +29,7 @@ body {
 }
 
 .flexbox-container .form {
-    flex-basis: 60%;
+    
     background-color: lightgray;
     display: flex;
     flex-direction: column;
@@ -62,26 +62,63 @@ body {
     height: 100%;
 }
 
-h2  {
-    padding: 2rem;
+.form p {
+    margin: 2rem;
+}
+
+h1 {
+    margin: 2rem;
+}
+
+h2 {
+    margin: 2rem;
+    
 }
 
 form {
     box-sizing: border-box;
-    padding: 2rem;
+    margin: 2rem;
 
 }
+
+
 
 .form-content {
     background-color: white;
     box-shadow: 0px 10px 5px gray;
 }
 
+
+
+input {
+    outline: none;
+    border: 3px solid lightgray;
+    width: 30%;
+    margin-right: 1em;
+    margin-bottom: 1em;
+
+}
+
 input:focus {
     border: 3px solid red;
 }
 
-input[type=text] {
-    outline: none;
+
+    
+
+button {
+    padding: 1em;
+    font: bold 0.6em sans-serif;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: green;
+    cursor: pointer;
+    margin: 2rem;
     width: 30%;
 }
+
+label {
+    color: #B4886B;
+    font-weight: bold;
+    width: 300px;
+  }
