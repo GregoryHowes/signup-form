@@ -12,7 +12,7 @@ body {
     display: flex;
 }
 
-.flexbox-container > * {
+.flexbox-container>* {
     height: 100dvh;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .flexbox-container .form {
-    
+
     background-color: lightgray;
     display: flex;
     flex-direction: column;
@@ -44,8 +44,8 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    
-    
+
+
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -72,7 +72,7 @@ h1 {
 
 h2 {
     margin: 2rem;
-    
+
 }
 
 form {
@@ -92,7 +92,8 @@ form {
 
 input {
     outline: none;
-    border: 3px solid lightgray;
+    border: 2px solid lightgray;
+    border-radius: 5px;
     width: 30%;
     margin-right: 1em;
     margin-bottom: 1em;
@@ -100,15 +101,18 @@ input {
 }
 
 input:focus {
+    border: 3px solid lightblue;
+    box-shadow: 0px 3px 2px gray;
+}
+
+input.no-match {
     border: 3px solid red;
 }
 
 
-    
-
 button {
     padding: 1em;
-    font: bold 0.6em sans-serif;
+    font: bold 1em sans-serif;
     border: 2px solid #333;
     border-radius: 5px;
     background-color: green;
@@ -118,7 +122,9 @@ button {
 }
 
 label {
-    color: #B4886B;
+    color: rgb(59, 59, 59);
+    display: inline-flex;
     font-weight: bold;
-    width: 300px;
-  }
+    width: 500px;
+    text-transform: uppercase;
+}
