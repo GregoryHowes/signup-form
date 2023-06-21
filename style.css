@@ -17,7 +17,7 @@ body {
 }
 
 .flexbox-container .flexbox-item {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .flexbox-container .image {
@@ -33,6 +33,11 @@ body {
     background-color: lightgray;
     display: flex;
     flex-direction: column;
+    flex: 1;
+    height: 100%;
+}
+
+.flexbox-container .form > * {
     flex: 1;
 }
 
